@@ -42,6 +42,7 @@ def load_data(APIKEY, URL, UNITS, CITY):
 def check_data(response):
     if (response['cod'] != 200):
         os.system('cls')
+        console.line(count=2)
         print(Panel(f"{response['message'].capitalize()}", width=60))
         exit()
 
@@ -50,6 +51,7 @@ def check_unit(unit, units):
     unit = unit.lower()
     if unit not in units:
         os.system('cls')
+        console.line(count=2)
         print(Panel("Type standart for Kelvin, metric for Celsius, imperial for Fahrenheit. Leave empty for default unit  Celsius.", width=60))
         exit()
     elif unit == "kelvin":
