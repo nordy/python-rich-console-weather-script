@@ -38,7 +38,7 @@ If you used chmod like "chmod +x script.py"
 ```bash
 $ ./script.py                            # runs for a random city - default unit is celsius.
 $ ./script.py "New York"                 # runs for New York City - default unit is celsius.
-$ ./script.py Berlin                     # runs for Ünye City - default unit is celsius.
+$ ./script.py Berlin                     # runs for Berlin - default unit is celsius.
 $ ./script.py "New York" --unit kelvin   # runs for New York City - unit is kelvin.
 $ ./script.py --unit fahrenheit          # runs for a random city - unit is fahrenheit.
 $ ./script.py --help                     # help
@@ -49,7 +49,7 @@ else
 ```bash
 $ python script.py                            # runs for a random city - default unit is celsius.
 $ python script.py "New York"                 # runs for New York City - default unit is celsius.
-$ python script.py Berlin                     # runs for Ünye City - default unit is celsius.
+$ python script.py Berlin                     # runs for Berlin - default unit is celsius.
 $ python script.py "New York" --unit kelvin   # runs for New York City - unit is kelvin.
 $ python script.py --unit fahrenheit          # runs for a random city - unit is fahrenheit.
 $ python script.py --help                     # help
