@@ -60,7 +60,7 @@ $ python script.py --help                     # help
 Example screenshot for results using by:
 
 ```bash
-$ python script.py London
+$ python script.py Gelsenkirchen
 ```
 
 ![Uygulama Ekran Görüntüsü](https://github.com/nordy/python-rich-console-weather-script/blob/main/screenshots/python_rich_weather_results_screen.jpg?text=Console+Results)
